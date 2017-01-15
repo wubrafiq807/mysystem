@@ -20,5 +20,9 @@
         <session-timeout>
             30
         </session-timeout>
+        
     </session-config>
+    <welcome-file-list>
+    <welcome-file>Admin_Dashbord.html</welcome-file>
+    </welcome-file-list>
 </web-app>
