@@ -1,0 +1,61 @@
+#img{
+    float: left;
+    height: 60px;
+
+}
+.iconrow .col-xs-12{
+    height: 60px;
+    background-position: top;
+
+
+}
+.baseline .col-xs-12{
+     background-color: #cc0000;
+    height: 10px;
+}
+#p1{
+    color: #009999;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#p2{
+    color: #993300;
+    font-size: 15px;
+
+}
+#second_td{
+    margin-left: 50px;
+    width: 200px;
+}
+select{
+    border-radius: 10px;
+    
+}
+#First_table{
+    margin-left: 10%;
+}
+#first_td{
+    border: 2px solid white;
+   
+}
+table tr th{
+   color: #cc0000;  
+}
+.alink .col-xs-1{
+    float: right;
+    background-color: #cc0000;
+    
+}
+#second_tH{
+   border: 2px solid white; 
+}
+#Defoult_id{
+    color: white;
+    
+    
+}
+#back_bt{
+    float: right;height: 50px;
+    width: 100px;
+}

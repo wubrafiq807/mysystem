@@ -1,0 +1,53 @@
+.col-xs-3{
+    float: left;
+    border: 1px solid #cccccc;
+    height: 80px;
+    clear: both;
+    margin-top: 30px;
+}
+.first_row  .col-xs-12{
+    background-color: black;
+    height: 50px;
+    clear: both;
+
+}
+#scol_admin{
+    color: white;
+    float: left;
+
+    font-size: 25px;
+}
+#daslink{
+    float: left;
+
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+#no_so{
+    margin-top: 30px;
+}
+.col-xs-8{
+
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#first_td{
+    color: #6699ff;
+    width: 500px;
+    border: 1px solid #cccccc;
+}
+#second_td{
+    width: 200px;
+    border: 1px solid #cccccc;
+}
+#third_td{
+    width:250px;
+    border: 1px solid #cccccc;
+}
+#fouth_td{
+     border: 1px solid #cccccc;
+}

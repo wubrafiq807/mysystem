@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/FOrmula Keys.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <b>Formula Keys</b>   
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p id="as">Assignments-A</p> 
+                        </div>
+                        <div class="col-md-4">
+                            <p id="as">Seminar-B</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row fomula">
+                <div class="col-md-2">
+                    <b>Formula</b>
+                </div>
+                <div class="col-md-4">
+                    <p id="cfm">Create formula using the formula keys listed above</p>
+                    <form>
+                        <textarea class="form-control" name="formula"></textarea>
+                        <input type="submit" value="Create">
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <p id="FTL">FORMULA EXPLANATION</p>
+                    <br>
+
+                    <p>SUM:<var>A+B</var></p>
+                    <br><p>DIFFERENCE:<var>A-B</var></p>
+                    <br>
+                    <p id="best">avg(Indicator1,Indicator2,Indicator3,IndicatorN)</p>
+                    <br>
+                    <p>BEST OF</p>
+                    <br>
+                    <p id="best">best(Number of best score required ,list of indicators)</p>
+                    <br>
+                    <p>Example<br>best(2,A,B,C,D,f)<br>best(1,A,B,C,D)</p>
+                    <br>
+                    <p>EXAMPLES</p><br>
+                    <p>A+B+C<br>A-(B+C+D)<br>A+best(4,B,C,D,E,F,G)+H+I<br>((A+B+C+D+E+F+G)*5)/35<br>(A+B+C+D)/3+avg(E,F)<br>A+avg(B,C,D)+best(1,E,F)</p>
+
+                </div>
+            </div>
+        </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" ></script>
+    </body>
+</html>

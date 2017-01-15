@@ -1,0 +1,48 @@
+select{
+    width: 230px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+input[type="text"]
+{
+     width: 230px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+.col-md-4{
+    text-align: center;
+    
+}
+.col-md-3{
+    text-align: left;
+}
+.second{
+    margin-top: 20px;
+}
+.second .col-md-3{
+    background-color: #f7f7f7;
+    height: 120px;
+    border-radius: 7px;
+    border-left: 10px solid white;
+}
+.second .col-md-4{
+    height: 120px;
+    text-align: center;
+}
+.row{
+    margin-top: 20px;
+}
+input[type="submit"]
+{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+strong{
+    color: #993300;
+}
+.container{
+    margin-top: 30px;
+}

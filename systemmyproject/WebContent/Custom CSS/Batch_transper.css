@@ -1,0 +1,41 @@
+    #back_icon{
+                float: right;
+                margin-right: 100px;
+                margin-top: 50px;
+                border-radius: 20px;
+
+
+            }
+           .baseline .col-md-12{
+               
+                height: 7px;
+                margin-top: 50px;
+
+            }
+
+
+            .manage{
+                float: right;
+                height: 50px;
+            }
+            .trans_link .col-xs-2{
+                float: right;
+                background-color: #8A2908;
+                height: 25px;
+                border-bottom-right-radius: 2px solid white;
+
+            }
+            a{
+                color: white;
+
+            }
+            .trans_link .col-xs-3{
+                margin-top: 50px;
+                float: left;
+            }
+            #selet_course{
+                  border-radius: 15px ;
+            }
+            #home_h2{
+                color: red;
+            }

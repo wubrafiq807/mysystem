@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Hospital management</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/home.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript">
+
+            var image1 = new Image()
+            var image2 = new Image()
+            var image3 = new Image()
+            image1.src = "Hospital_1.jpg"
+            image2.src = "hospital_2.jpg"
+            image3.src = "hospital_3.jpg"
+        </script>
+    </head>
+    <body>
+
+        <div id="manu">
+            <ul >
+                <li><a href="#">HOME</a></li>
+                <li><a href="patient_signup.html">REGISTRATION</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">GALLARY</a></li>
+            </ul>
+
+        </div>
+        <div id="body">
+            <div id="mainbody">
+                <img src="Hospital_1.jpg" name="slide">
+            </div>
+            <div id="Forter">
+                <ul>
+                    <li><a href="patient_view.html">Patient</a></li>
+                    <li><a href="#">Doctor</a></li>
+                    <li><a href="viewnurse.html">Nurse</a></li>
+                    <li><a href="#">Room</a></li>
+                    <li><a href="#">User</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Ward</a></li>
+                    <li><a href="#">Admin</a></li>
+                    <li><a href="#">Log out</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var start = 1;
+            function slieshow() {
+                document.images.slide.src = eval("image" + start + ".src");
+                if (start < 3)
+                    start++;
+                else
+                    start = 1;
+                setTimeout("slieshow()", 2500)
+            }
+            slieshow();
+        </script>
+    </body>
+</html>

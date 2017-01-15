@@ -1,0 +1,61 @@
+.col-xs-12{
+    height: 80px;
+    background-color:#8A2908;
+    color: white;
+    text-align: center;
+    background-position:fixed;
+}
+.icon .col-xs-12 {
+    height: 80px;
+    background-color: white;
+    color: white;
+    text-align: left;
+    baccolor: white;
+    textkground-position:fixed;
+    margin-top: 50px;
+
+}
+.col-xs-8{
+    margin-top: 40px;
+    text-align: left;
+}
+.col-xs-4{
+    margin-top: 40px;
+}
+button{
+    border: 2px solid #8A2908;
+    color: #8A2908;
+    height: 30px;
+}
+select{
+    border: 2px solid #8A2908;
+    color: #8A2908;
+    height: 30px;
+}
+.bord{
+/*    margin-left: 20%;*/
+}
+.bord .col-xs-4{
+    border: 2px solid #cccccc;
+    height: 150px;
+    text-emphasis-position: below;
+}
+strong{
+    color: #cc0033;
+
+}
+
+table{
+    margin-top: 15%;
+}
+#third_td{
+    text-align: right;
+}
+#second_td{
+    text-align: left;
+    width: 30px;
+}
+#first_td{
+    width: 150px;
+    text-align: left;
+}

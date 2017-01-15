@@ -1,0 +1,46 @@
+#profile{
+    float: left;
+    margin-left: 8px;
+}
+strong{
+    color: #993300;
+}
+.baseline .col-md-12{
+    height: 10px;
+    background-color: #993300;
+}
+table{
+    margin-top: 50px;
+}
+table tr td{
+    width: 150px; text-align: left;
+}
+select
+{
+    border-radius: 8px;
+    height: 25px;
+     background-color:#ebe9ea;
+}
+#scroll{
+    overflow: scroll;
+    overflow-wrap: break-word;
+    margin-top: 20px;
+    background-color:#ebe9ea
+}
+#des{
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color:#ebe9ea
+}
+input[type="submit"]
+{
+    margin-top: 20px;
+    height:30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+/*<div style="width:150px;height:150px;line-height:3em;overflow:scroll;padding:5px;background-color:#FCFADD;color:#714D03;scrollbar-base-color:#DEBB07;">
+This 'div' element uses 'overflow:scroll' to create scrollbars whenever the contents of the 'div' become too large. 
+</div>*/

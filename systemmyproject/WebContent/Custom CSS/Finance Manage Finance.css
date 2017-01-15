@@ -1,0 +1,43 @@
+#img{
+    float: left;
+    height: 60px;
+
+}
+#img2{
+    width: 70px;
+    height: 70px;
+    float: right;
+}
+.iconrow .col-xs-12{
+    height: 60px;
+    background-position: top;
+
+
+}
+.baseline .col-md-12{
+    margin-top: 20px;
+    background-color: #993300;
+    height: 10px;
+}
+#p1{
+    color: #009999;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#p2{
+    color: #993300;
+    font-size: 15px;
+
+}
+.col-xs-6 {
+    margin-top: 40px;
+}
+#m_a{
+    color: #ff0000;
+    font-size: 15px;
+    font-style: oblique;
+
+
+}
+

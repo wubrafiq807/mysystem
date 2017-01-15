@@ -1,0 +1,19 @@
+strong{
+    color: #990000;
+}
+.container{
+    margin-top: 30px;
+}
+table thead tr th{
+    color: #990000;
+}
+#first_td{
+    width: 10%;
+}
+.col-md-12{
+    background-color: #00cccc;
+}
+table{
+    background-color: white;
+    margin-top: 10px;
+}

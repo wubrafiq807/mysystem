@@ -1,0 +1,26 @@
+.col-xs-12{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+        
+}
+table tr td:empty {
+    width: 600px;
+}
+
+table tr td {
+    
+padding-left: 50px;
+}
+#r1{
+    border-radius: 9px;
+  
+}
+#update_bt{
+    width: 100px;
+    color: white;
+    background-color: black; 
+    border-radius: 8px;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,20 @@
+h1{
+    float: left;
+    margin-left: 50px;
+}
+select{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+a{
+    font-size: 25px;
+    clear: both;
+    margin-left: 100px;
+    color: black;
+    text-decoration:navy;
+    
+}

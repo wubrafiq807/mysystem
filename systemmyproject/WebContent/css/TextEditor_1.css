@@ -1,0 +1,21 @@
+#back_icon{
+    width: 80px;
+    height: 60px;
+}
+.baseline .col-md-12{
+    height: 7px;
+    background-color: #990000;
+}
+.pull-left{
+    height: 70px;
+}
+#firstImage{
+    float: left;
+    margin-left: 20px;
+}
+strong{
+    color: #99cc00;
+}
+p{
+    color: #990000;
+}

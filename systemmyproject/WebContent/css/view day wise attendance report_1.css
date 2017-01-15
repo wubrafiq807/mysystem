@@ -1,0 +1,44 @@
+.container{
+    margin-top: 30px;
+}
+input[type="date"]
+{
+    border-radius: 6px;
+}
+strong{
+    color: #993300;
+    margin-left: 20px;
+}
+select{
+    border-radius: 10px;
+    width: 200px;
+}
+#first_td{
+    height: 40px;
+}
+#td{
+    width: 50px;
+}
+#second_td{
+    width: 200px;
+    text-align: right;
+}
+input[type="submit"]
+{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+}
+.respsivetable{
+    width: auto;
+/*    height: auto;*/
+    background-color: #009999;
+   
+}
+.table-bordered{
+    background-color: white;
+    margin-left: 10px;
+ max-width: 97%;
+ margin-top: 30px;
+}

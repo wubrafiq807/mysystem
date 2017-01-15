@@ -1,0 +1,48 @@
+.first_row{
+    height: 80px;
+    margin-top: 30px;
+}
+.col-md-3{
+    /*    border: 2px solid black;*/
+}
+.basle .col-md-12{
+    height: 10px; 
+    background-color: #990000;
+}
+.viewall{
+    background-color: #990000;
+    width: 100px;
+    float: right;
+}
+a{
+    color: white;
+}
+input[type="text"]
+{
+    margin-left: 20px;
+    border-radius: 10px;
+}
+input[type="submit"]
+{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.messagebord .col-md-12{
+    border: 2px solid #cccccc;
+    margin-top: 20px;
+}
+.messagposted .col-md-12{
+    margin-top: 20px;
+    
+}
+#pt{
+    color: #cc6600;
+}
+.messagposted_textAred .col-md-12{
+     border: 2px solid #cccccc;
+    margin-top: 20px;
+}
+textarea{
+    margin: 5px;
+}

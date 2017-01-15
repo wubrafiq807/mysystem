@@ -1,0 +1,30 @@
+.col-xs-12{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+        
+}
+table tr td:empty {
+    width: 600px;
+}
+
+table tr td {
+    
+padding-left: 50px;
+}
+#r1{
+    border-radius: 9px;
+  
+}
+#submit_bt{
+    text-align: center;
+    background-color: black;
+    color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#submit_td{
+  
+}

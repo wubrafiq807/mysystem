@@ -1,0 +1,39 @@
+.col-md-3{
+    margin-top: 25px;
+}
+
+#pragraph{
+  margin-top: 30px;
+    font-size:14px; 
+}
+.baseline{
+    height: 5px;
+    background-color: #990000;
+    margin-bottom: 50px;
+}
+
+#back_image{
+    float: right;
+    width: 70px;
+    height: 70px;
+}
+
+table tr td:empty {
+    width: 600px;
+}
+
+table tr td {
+
+    padding-left: 50px;
+}
+#r1{
+    border-radius: 9px;
+
+}
+input[type="submit"]{
+    width: 100px;
+    color: white;
+    background-color: black; 
+    border-radius: 8px;
+    margin-top: 20px;
+}

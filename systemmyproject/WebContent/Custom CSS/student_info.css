@@ -1,0 +1,43 @@
+#profile{
+    
+    float: left;
+    
+}
+p{
+    color: #00cccc;
+}
+b{
+    color: #cc3300;
+}
+a{
+    float: right;
+    color: white;
+}
+.container{
+    margin-top: 20px;
+}
+.baseline .col-md-12{
+    
+    height: 10px;
+    background-color: #cc3300;
+}
+.col-md-2{
+    float: right;
+    background-color: #cc3300;
+    margin-left: 5px;
+    width: 120px;
+   
+}
+select{
+    background-color: #cc3300;
+    color: white;
+    width: 100px;
+    border: 2px solid #cc3300;
+}
+#first_td{
+    width: 30%;
+    text-align: right;
+}
+strong{
+    color: #cc3300;
+}

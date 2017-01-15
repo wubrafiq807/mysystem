@@ -1,0 +1,54 @@
+.col-md-12{
+    background-color: #990000;
+    height: auto;
+}
+.col-md-4{
+    background-color: #990000;
+}
+.first{
+    background-color: #990000;
+}
+#pra{
+    color: white;
+}
+#button{
+    background-color: white;
+    color: #990000;height: 30px;
+    width: 80px;
+}
+#profile{
+    float: left;
+    margin-left: 10px;
+}
+.baseline .col-md-12{
+    margin-top: 20px;
+    height: 10px;
+    background-color: #990000;
+}
+p{
+    color: #999900;
+}
+b{
+    color: #990000;
+}
+input[type="text"]
+{
+    width: 220px;
+}
+#link{
+    background-color: #990000;
+    float: right;
+    border-left: 5px solid white;
+}
+a{
+    color: white;
+}
+form{
+    margin-top: 50px;
+}
+.table thead th{
+    color: #990000;
+}
+.table{
+    border: 10px solid #009999;
+}

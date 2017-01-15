@@ -1,0 +1,35 @@
+#img{
+    float: left;
+    height: 60px;
+
+}
+#img2{
+    float: right;
+    width: 70px;
+    height: 70px;
+}
+.iconrow .col-xs-12{
+    height: 60px;
+    background-position: top;
+
+
+}
+.baseline .col-xs-12{
+    background-color: #990000;
+    height: 5px;
+    margin-bottom: 20px;
+}
+form{
+    margin-left: 300px;
+}
+.managecourse .col-xs-5{
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#m_a{
+    color: #ff0000;
+    font-size: 15px;
+    font-style: oblique;
+
+}

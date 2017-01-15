@@ -1,0 +1,54 @@
+#back_icon{
+    float: right;
+}
+#img{
+    float: left;
+    height:60px;
+
+}
+.iconrow .col-xs-12{
+    height: 60px;
+    background-position: top;
+    margin-top: 30px;
+
+
+}
+.baseline .col-xs-12{
+    background-color: #ff0000;
+    height: 10px;
+}
+.col-xs-12{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+        
+}
+table tr td:empty {
+    width: 600px;
+}
+
+table tr td {
+    
+padding-left: 50px;
+}
+#r1{
+    border-radius: 9px;
+  
+}
+#update_bt{
+    width: 100px;
+    color: white;
+    background-color: black; 
+    border-radius: 8px;
+    margin-top: 20px;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 2, 2015, 8:03:06 PM
+    Author     : shaha
+*/
+

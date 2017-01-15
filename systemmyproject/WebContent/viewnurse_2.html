@@ -1,0 +1,137 @@
+<!DOCTYPE AHTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+        <!--         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+        <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+        <link href="css/nurse.css" type="text/css" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#from1').hide();
+                $('#from2').hide();
+                $('#nurse').hide();
+                $('#fromall').hide();
+            });
+            function view(){
+                 $('#from1').show();
+                $('#from2').hide();
+                $('#nurse').hide();
+                 $('#fromall').hide();
+            }
+            
+            function update(){
+                 $('#from1').hide();
+                $('#from2').hide();
+                $('#nurse').show();
+                 $('#fromall').hide();
+            }
+            
+            
+            function Delete(){
+                 $('#from1').hide();
+                $('#from2').show();
+                $('#nurse').hide();
+                 $('#fromall').hide();
+            }
+            function viewall(){
+                  $('#from1').hide();
+                $('#from2').hide();
+                $('#nurse').hide();
+                $('#fromall').show();
+            }
+        </script>
+    </head>
+    <body>
+        <div id="manu_nr">
+            <ul >
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="#">REGISTRATION</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">GALLARY</a></li>
+            </ul>
+        </div>
+        <div id="mainbody_nr">
+            <form action="viewdata" method="Post" id="from1">
+                Please Enter nurse ID: <input type="text" name="NurseID">
+                <input type="submit" value="Search Nurse">
+                <input type="hidden" name="fno" value="1">
+            </form>
+            <form action="viewdata" method="Post" id="from2">
+                Please Enter nurse ID: <input type="text" name="NurseID">
+                <input type="submit" value="delete">
+                <input type="hidden" name="fno" value="2">
+            </form>
+            <form action="viewdata" method="Post" id="fromall">
+                
+                
+                <input type="submit" value="ViewAll">
+                <input type="hidden" name="fno" value="4">
+            </form>
+            <!-- nurse  registration form-->
+            <form method="post" id="nurse" action="viewdata">
+
+                <input type="hidden" name="fno" value="3">
+                <table>
+                    <tr>
+                        <td> Id:</td>
+                        <td><input type="text" name="NurseID" value="" /><strong>*</strong></td>  
+                    </tr>
+                    <tr>
+                        <td> Name:</td>
+                        <td><input type="text" name="NurseName" value="" /><strong>*</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Catagory:</td>
+                        <td><input type="text" name="NurseCatagory" value="" /><strong>*</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><textarea rows="5" cols="15" name="NurseAddress"></textarea><strong>*</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Contract Number:</td>
+                        <td><input type="text" name="NurseContractNumber" value="" /><strong>*</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Qualification:</td>
+                        <td><input type="text" name="NurseQualification" value="" /><strong>*</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="text" name="NurseEmail" value="" /><strong>*</strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>Date OF joining:</td>
+                        <td><input type="text" name="NurseDateOfJoining" value="" /><strong>*</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Submit:</td>
+                        <td><input type="submit"  value="Register" /></td>
+                    </tr>
+                </table>
+
+            </form>
+
+
+
+        </div>
+        <div id="left_nt">
+            <ul>
+                <li><button onmouseover="view()">View</button></li>
+                <li><button onmouseover="update()">Up date</button></li>
+                <li><button onmouseover="Delete()">Delete</button></li>
+                <li><button onmouseover="viewall()">View All</button></li>
+            </ul>
+        </div>
+        <div id="forter_nr">
+
+        </div>
+
+    </body>
+</html>>

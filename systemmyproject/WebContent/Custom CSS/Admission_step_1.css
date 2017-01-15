@@ -1,0 +1,55 @@
+
+p{
+    color: #009999;
+}
+b{
+    color: #990033;
+}
+.baseline .col-md-12{
+    background-color: #990033;
+    height: 10px;
+}
+#image{
+    float: left;
+    margin-left: 10px;
+}
+.container{
+    margin-top: 20px;
+}
+.col-xs-12 .col-md-8{
+    text-align: right;
+}
+.base{
+    margin-top: 30px;
+}
+.basle .col-md-12{
+    height: 2px;
+    background-color: #996600;
+}
+h5{
+    margin-top: 20px;
+}
+#inputfield{
+    width: 200px;
+    border-radius: 7px;
+    
+}
+.col-md-3{
+    margin-top: 7px;
+}
+.col-md-9{
+    margin-top: 7px;
+}
+input[type="submit"]
+{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    
+}
+label.error{
+    color: red;
+    margin-left: 5px;
+}

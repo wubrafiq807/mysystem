@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" >
+        <link href="Custom CSS/Admission_step_1.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="pull-left ">
+                    <img src="images/admission.jpg" height="40" width="40" id="image">
+                    <p id="image">Admission<br><b>Step2 -Parents details</b></p>
+
+                </div>
+                <div class="pull-right">
+                    <a href="Admission_step_1.html "><img src="images/back_1.jpg" height="60" width="60"></a> 
+                </div>
+            </div>
+            <div class="row baseline">
+                <div class="col-md-12">
+
+                </div>
+            </div>
+
+            <div class="row base">
+                <div><h4>Field marked with<b>*</b> must be filled </h4></div>
+            </div>
+            <form action="Student_admissionController" method="post" id="studer_admission">
+                <input type="hidden" name="fno" value="2">
+                <div class="row">
+                    <div class="  col-md-3">
+                        <h6>Admission  number<b>*</b></h6>
+                    </div>
+                    <div class=" col-md-3">
+                        <input type=text name="admnumber" id="inputfield">
+                    </div>
+                   
+                </div>
+                <h5>Guardian Details</h5>
+                <div class="row basle">
+                    <div class="col-md-12"></div>
+                </div>
+                <div class="row">
+                    <div class="  col-md-3">
+                        <h6> First Name<b>*</b></h6>
+                    </div>
+                    <div class=" col-md-9">
+                        <input type=text name="gfname" id="inputfield" placeholder="Guardian First Name">
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="  col-md-3">
+                        <h6>Last name<b>*</b></h6>
+                    </div>
+                    <div class=" col-md-9">
+                        <input type="text" name="glname" id="inputfield" placeholder="Guardian Last Name">
+                    </div>
+                </div>
+                   <div class="row">
+                    <div class="col-md-3">
+                        <h6>Relationship with Student</h6>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="radio" name="relation" value="Father"> Father<br>
+                        <input type="radio" name="relation" value="Mother"> Mother<br>
+                        <input type="radio" name="relation" value="Other"> Other
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="  col-md-3">
+                        <h6>Date of birth<b>*</b></h6>
+                    </div>
+                    <div class=" col-md-9">
+                        <input type="date" name="gdate" id="inputfield">
+                    </div>
+                </div>
+                   <div class="row">
+                    <div class="col-md-12">
+                        <h3>Contract Details</h3>
+                    </div>
+                   
+                </div>
+                <div class="row">
+                    <div class="  col-md-3">
+                        <h6>Email<b>*</b></h6>
+                    </div>
+                    <div class=" col-md-9">
+                        <input type="text" name="gemail" id="inputfield" placeholder="Guardian Email">
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="  col-md-3">
+                        <h6>Address<b>*</b></h6>
+                    </div>
+                    <div class=" col-md-9">
+                        <input type="text" name="gaddress" id="inputfield" placeholder="Enter Address Max 200 Carrecter">
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="  col-md-3">
+                        <h6>City<b>*</b></h6>
+                    </div>
+                    <div class=" col-md-9">
+                        <input type="text" name="gcity" id="inputfield" placeholder="Enter City">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="  col-md-3">
+                        <h6>Phone Number<b>*</b></h6>
+                    </div>
+                    <div class=" col-md-9">
+                        <input type="text" name="gphone" id="inputfield" placeholder="Guardian Phone Number">
+                    </div>
+                </div>
+           
+                 
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-3">
+                        <input type="submit" value="save">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" ></script>
+         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+         <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+         <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+         <script src="js/ParentDetails.js"></script>
+    </body>
+</html>

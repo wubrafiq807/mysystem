@@ -1,0 +1,33 @@
+
+ .first_row .col-md-12{
+    height: 70px; background-color: #990000;
+}
+form{
+    margin-top: 50px;
+}
+select{
+    color: #990000;
+}
+table tr th{
+    color: #990000;
+}
+.col-md-5{
+    border: 2px solid #cccccc;
+    margin-top: 50px;
+    
+}
+#secob_update{
+    margin-left: 10px;
+}
+.welcome .col-md-12{
+    background-color: orange;
+    height: auto;
+    text-align: right;
+    margin-top: 40px;
+}
+    #welcomelabte{
+        color: black;
+        font-size: 25px;
+        margin-right: 100px;
+        margin-top: 15px;
+    }

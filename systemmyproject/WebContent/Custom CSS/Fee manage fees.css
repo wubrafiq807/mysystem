@@ -1,0 +1,85 @@
+.col-xs-12{
+                height: 80px;
+                background-color:#8A2908;
+                color: white;
+                text-align: center;
+                background-position:fixed;
+
+
+            }
+            .icon .col-xs-12 {
+                height: 80px;
+                background-color: white;
+                color: white;
+                text-align: left;
+                background-position:fixed;
+                margin-top: 50px;
+
+            }
+            .col-xs-8{
+                margin-top: 40px;
+                text-align: left;
+            }
+            .col-xs-4{
+                margin-top: 40px;
+            }
+            button{
+                border: 2px solid #8A2908;
+                color: #8A2908;
+                height: 30px;
+            }
+            select{
+                border: 2px solid #8A2908;
+                color: #8A2908;
+                height: 30px;
+            }
+            input type[text]{
+                height: 20px;
+            }
+            #course_h1{
+                color: #666666;
+                align:left;
+
+            }
+            #home_h2{
+                color: #ff6633;
+            }
+            #back_icon{
+                float: right;
+                margin-right: 100px;
+                margin-top: 50px;
+                border-radius: 20px;
+
+
+            }
+            .basle  .col-xs-12{
+                background-color:#8A2908;
+                height: 5px;
+                margin-top: 50px;
+
+            }
+
+
+            .manage{
+                float: right;
+                height: 50px;
+            }
+            .trans_link .col-xs-2{
+                float: right;
+                background-color: #8A2908;
+                height: 25px;
+                border-bottom-right-radius: 2px solid white;
+
+            }
+            a{
+                color: white;
+
+            }
+            .trans_link .col-xs-3{
+                margin-top: 50px;
+                float: left;
+            }
+            #selet_course{
+                  border-radius: 15px ;
+            }
+           

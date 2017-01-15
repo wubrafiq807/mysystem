@@ -1,0 +1,45 @@
+
+
+#form_tag{
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+select{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+#selective{
+    font-size: 20px;
+    margin-top: 20%;
+    margin-left: 30px;
+    color: black;
+    
+}
+.atag{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#first_td{
+    width: 70%;
+}
+#secontable_first_td{
+    width: 50%;
+}
+table{
+    margin-top: 50px;
+}
+.col-xs-7{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.col-xs-6{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#second_language_p{
+ margin-left: 40%;
+ font-size: 25px;
+ color: black;
+}

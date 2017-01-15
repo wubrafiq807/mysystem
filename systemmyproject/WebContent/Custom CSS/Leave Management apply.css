@@ -1,0 +1,83 @@
+select{
+    width: 80px;
+    color: #cc3300;
+    background-color: white;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+button{
+    width: 80px;
+    color: #cc3300;
+    background-color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+.navbard .col-xs-12{
+    background-color: #990033;
+    height: 50px;
+
+}
+.col-xs-7{
+    margin-left: 50px;
+    float: left;
+}
+.col-xs-4{
+    float: right;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#home_h2{
+    color: red;
+}
+#back_icon{
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+
+}
+.icon{
+    clear: both;
+}
+.basle .col-xs-12{
+    height: 10px;
+    background-color: #990033;
+}
+.data_btn .col-xs-1{
+    float: right;
+    border-left: 5px solid white;
+    background-color: #990033;
+    width: 100px;
+}
+#b1{
+    color: white;
+    
+    margin-left: 20px;
+    border-: 30px;
+}
+
+ul li{
+    list-style: none;
+    text-align: left;
+   
+}
+#b2{
+    float: right;
+    color: white;
+}
+.f1{
+    
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#r1{
+    margin-top: 20px;
+}
+#submit_bt{
+    margin-top: 20px;
+    background-color: black;
+ color: white;
+}

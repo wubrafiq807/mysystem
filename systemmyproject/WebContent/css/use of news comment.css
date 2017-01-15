@@ -1,0 +1,21 @@
+.pull-left
+{
+    margin-top: 30px;
+}
+.pull-right{
+     margin-top: 30px;
+}
+.baseline .col-md-12{
+    height: 2px;
+    background-color: #cccccc;
+}
+.container{
+/*    padding: 10px*/
+}
+#rirght{
+    float: right;
+    margin-right: 5px;
+}
+form{
+    margin-top: 100px;
+}

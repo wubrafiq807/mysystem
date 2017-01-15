@@ -1,0 +1,39 @@
+.first_row{
+    height: 80px;
+    margin-top: 30px;
+}
+.col-md-3{
+    /*    border: 2px solid black;*/
+}
+.basle .col-md-12{
+    height: 10px; 
+    background-color: #990000;
+}
+.viewall{
+    background-color: #990000;
+    width: 100px;
+    float: right;
+}
+a{
+    color: white;
+}
+table thead tr th{
+    color: #cc0000;
+    background-color: white;
+    height: 30px;
+}
+table tbody tr td{
+   
+    background-color: white;
+    height: 15px;
+}
+.well{
+    margin-top: 30px;
+}
+.second{
+    background-color: #009999;
+}
+#form{
+    margin-top: 50px;
+    margin-left: 50px;
+}

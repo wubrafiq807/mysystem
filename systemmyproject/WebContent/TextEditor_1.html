@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="Boot strap markdown/css/bootstrap-markdown.min.css" type="text/css">
+        <link rel="stylesheet" href="css/TextEditor.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pull-left">
+                        <img src="icon-user-profile-images.png" id="firstImage" class="img-responsive" alt="Responsive image">
+                         <p id="firstImage"><strong>Add News</strong><br>Publish School News</p>
+                    </div>
+                  
+                </div>
+                <div class="pull-right">
+                    <a href="#">  <img src="back_1.jpg" id="back_icon" class="img-responsive" alt="Responsive image"></a>
+                </div> 
+            </div>
+            <div class="row baseline">
+                <div class="col-md-12"></div>
+            </div>
+            <h4>Text Editor</h4>
+            <form>
+                <input name="title" class="form-control" type="text" placeholder="Title?" />
+                <textarea name="content" data-provide="markdown" rows="10"></textarea>
+                <div class="checkbox">
+                    <label class="checkbox" >
+                        <input name="publish" type="checkbox"> Publish
+                    </label>
+                </div>
+
+                <hr/>
+                <button type="submit" class="btn btn-primary btn-large">Submit</button>
+            </form> 
+            <br>
+            <h4>Text Editable</h4>
+            <div data-provide="markdown-editable">
+                <h3>This is some editable heading</h3>
+                <p>Well, actually all contents within this "markdown-editable" context is really editable. Just click anywhere!</p>
+            </div>
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" ></script>
+        <script src="Boot strap markdown/js/bootstrap-markdown.js"></script>
+    </body>
+</html>

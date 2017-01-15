@@ -1,0 +1,19 @@
+.baseline .col-md-12{
+    height: 10px;
+    background-color: #993300;
+}
+.col-md-4
+{
+    margin-top: 60px;
+}
+a{
+    color: #993300;
+    font-size: 25px;
+}
+#profile{
+    float: left;
+    
+}
+p{
+    color: #009999;
+}

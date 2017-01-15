@@ -1,0 +1,90 @@
+#icon{
+    float: left;
+    margin-left: 10px;
+}
+strong{
+    color:#990000;
+}
+.baseline .col-md-12{
+    margin-top: 20px;
+    background-color: #003399;
+    height: 8px;
+}
+table tr td{
+    text-align: left;
+    width: 200px;
+    height: 30px;
+}
+table{
+    margin-top: 50px;
+}
+#selective{
+    width: 200px;
+    border-radius: 7px;
+    height: 30px;
+}
+input[type="submit"]
+{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
+.container{
+    margin-top: 30px;
+}
+.exam{
+    background-color: #003399;
+    
+}
+#previous{
+    color: white;
+}
+#manu{
+    width: 80px;
+  
+    background-color: white;
+    color: #003399;
+    height: 30px;
+}
+.col-md-12{
+    background-color: #003399;
+    height: auto;
+}
+#search{
+    width: 250px;
+}
+.icon{
+    margin-top: 30px;
+}
+label{
+    color: #990000;
+}
+.table-bordered thead th{
+    color:  #003399;
+}
+#first_td{
+    width: 40%;
+}
+#second_td{
+    width: 40%;
+}
+#inputfield{
+    border-radius: 10px;
+    width: 50%;
+}
+.col-md-2{
+    background-color: #003399;
+    float: right;
+    border-left: 5px solid white;
+}
+.col-md-1{
+    background-color: #003399;
+    float: right;
+    border-left: 5px solid white;
+}
+    
+#link_gst{
+    color: white;
+}

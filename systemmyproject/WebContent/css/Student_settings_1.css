@@ -1,0 +1,98 @@
+
+.col-xs-12{
+    height: 40px;
+    background-color:#8A2908;
+    color: white;
+    text-align: center;
+    background-position:fixed;
+
+
+}
+.icon .col-xs-12 {
+    height: 80px;
+    background-color: white;
+    color: white;
+    text-align: left;
+    background-position:fixed;
+    margin-top: 10px;
+
+}
+.col-xs-8{
+/*    margin-top: 40px;*/
+    text-align: left;
+}
+.col-xs-4{
+/*    margin-top: 40px;*/
+}
+button{
+    border: 2px solid #8A2908;
+    color: #8A2908;
+    height: 30px;
+}
+#dash_button{
+    border: 2px solid #8A2908;
+    color: #8A2908;
+    height: 30px;
+    width: 100px;
+}
+input type[text]{
+    height: 20px;
+}
+#course_h1{
+    color: #666666;
+    align:left;
+
+}
+#home_h2{
+    color: #ff6633;
+}
+#back_icon{
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+
+}
+.basle  .col-xs-12{
+    background-color:#8A2908;
+    height: 5px;
+    margin-top: 50px;
+
+}
+/*            #m_c{
+                font-size: 25px;
+                font-family: initial,sans-serif,cursive;
+                color: red;
+                
+            }*/
+table tr td{
+    height: 40px;
+    width: 200px;
+}
+input[type="text"]{
+    border-radius: 5px;
+}
+#First_form{
+    margin-left: 25%;
+    margin-top: 50px;
+       
+}
+#table_select{
+     width: 175px;
+     border-radius: 5px;
+     height: 25px;
+}
+#action_bt{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+#Second_form{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+}

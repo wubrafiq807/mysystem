@@ -1,0 +1,16 @@
+#first_td{
+    height: 50px;
+}
+input[type="datetime-local"]
+{
+    border-left-style: none;
+    border-style: none;
+    width: auto;
+}
+strong{
+    color: #990000;
+}
+form{
+    margin-left: 10%;
+    margin-top: 50px;
+}

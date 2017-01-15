@@ -1,0 +1,45 @@
+.col-xs-4{
+    float: left;
+    border: 1px solid #cccccc;
+    height: 150px;
+    clear: both;
+    margin-top: 30px;
+}
+.first_row  .col-xs-12{
+    background-color: black;
+    height: 50px;
+    clear: both;
+    
+}
+#scol_admin{
+    color: white;
+    float: left;
+ 
+  font-size: 25px;
+}
+a{
+    float: left;
+    
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+  
+}
+#no_so{
+    margin-top: 30px;
+}
+.col-xs-7{
+    
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#domain{
+    border: 2px solid #ffffff;
+    clear: both;
+}
+input[type="text"]
+{
+    height: 40px;
+    width: 250px;
+}

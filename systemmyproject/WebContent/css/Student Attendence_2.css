@@ -1,0 +1,75 @@
+.col-xs-12{
+    height: 80px;
+    background-color:#8A2908;
+    color: white;
+    text-align: center;
+    background-position:fixed;
+
+
+}
+.icon .col-xs-12 {
+    height: 80px;
+    background-color: white;
+    color: white;
+    text-align: left;
+    background-position:fixed;
+  
+
+}
+
+#course_h1{
+    color: #666666;
+    align:left;
+
+}
+#home_h2{
+    color: #ff6633;
+}
+#back_icon{
+    float: right;
+    margin-right: 100px;
+   
+    border-radius: 20px;
+}
+.basle  .col-xs-12{
+    background-color:#8A2908;
+    height: 5px;
+    margin-top: 50px;
+
+}
+#profile{
+    float: left;
+}
+.iconrow{
+    margin-top: 30px;
+}
+.baseline .col-md-12{
+    background-color: #990000;
+    height: 8px;
+}
+strong{
+    color: #990000;
+}
+.form{
+    margin-top: 20px;
+    background-color: #009999;
+  
+}
+table tr th{
+    color: #660000;
+}
+.table{
+    margin-top: 50px;
+}
+select{
+    margin-left: 100px;
+    border-radius: 10px;
+}
+input[type="date"]
+{
+    margin-left: 200px;border-radius: 6px;
+}
+.well{
+    margin-top: 50px;
+    background-color: #009999;
+}
