@@ -80,6 +80,7 @@ public class ParentDao {
             pst.setString(7, student.getBatch());
             pst.setString(8, student.getGender());
             pst.setInt(9, student.getAdmnumber());
+            pst.setInt(9, student.getAdmnumber());
             pst.executeUpdate();
         } catch (SQLException e) {
             // TODO Auto-generated catch block
